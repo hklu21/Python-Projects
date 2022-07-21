@@ -104,7 +104,7 @@ def Continue():
 
 #restart function
 def Clear():
-    global winLable, human_point, computer_point, HChoice_label, RChoice_label
+    global winLabel, human_point, computer_point, HChoice_label, RChoice_label
 
     #hide robot lable choice
     rockL.place(x = 210 , y = 500)
@@ -206,6 +206,7 @@ def Winner():
     #call Game result
     GameResult()
 
+
 #Main program
 main = Tk()
 main.title("rock paper scissors")
@@ -289,4 +290,5 @@ scissors.place(x = 410 , y = 100)
 scissors['bg'] = '#FFDBDB'
 
 #GAME loop
-main.mainloop()
+def main_func():
+    main.mainloop()

@@ -118,7 +118,7 @@ class Main(tk.Tk):
             return convert_error
 
 
-if __name__ == '__main__':
+def main():
     converter = CurrencyConverter('https://api.exchangerate.host/latest')
     Main(converter)
     mainloop()

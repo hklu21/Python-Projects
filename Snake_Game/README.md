@@ -17,6 +17,9 @@ have python3 (pygame tkinter) installed
 python3 snake_1.py/snake_2.py
 ```
 
+## Issue:
+Tkinter messagebox is not working normally with python3 on MacOS (normal on Windows or with python2).
+
 ## Screen Shot:
 
 ![plot](./images/screen_shot.png)

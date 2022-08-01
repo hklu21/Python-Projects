@@ -2,7 +2,7 @@
 
 ## Instruction:
 
-This is a simple Rock-Paper-Scissors Game game GUI built by Python and Tkinter.
+This is a simple Rock-Paper-Scissors game GUI built by Python and Tkinter.
 
 The application is distributed by PyInstaller.
 
